@@ -116,8 +116,7 @@ const LandingPage3 = () => {
               <span className="title-line-2">at scale</span>
             </h1>
             <p className="hero-description">
-              Biometrica Health is the first device-agnostic remote patient monitoring platform
-              built for health systems.
+              Biometrica Health is the first device-agnostic RPM platform for health systems.
             </p>
             <div className="hero-cta-group">
               <button className="login-button" onClick={handleHeroCTAClick}>
