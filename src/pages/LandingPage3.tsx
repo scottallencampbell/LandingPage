@@ -30,7 +30,6 @@ const LandingPage3 = () => {
   const location = useLocation();
   const [problemRef, isProblemVisible] = useIntersectionObserver();
   const [howItWorksRef, isHowItWorksVisible] = useIntersectionObserver();
-  const [platformRef, isPlatformVisible] = useIntersectionObserver();
   const [capabilitiesRef, isCapabilitiesVisible] = useIntersectionObserver();
   const [complianceRef, isComplianceVisible] = useIntersectionObserver();
   const [finalCTARef, isFinalCTAVisible] = useIntersectionObserver();
@@ -77,7 +76,7 @@ const LandingPage3 = () => {
   const logoUrl = `${process.env.PUBLIC_URL || ""}/logo-white.svg`;
 
   return (
-    <div className="landing-page-2">
+    <div className="landing-page-3">
       <div className="hero-wrapper">
         {/* Header */}
         <header className="header">
@@ -245,18 +244,6 @@ const LandingPage3 = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Platform Section */}
-      <section className="platform-section" ref={platformRef}>
-        <div className={`section-container section-fade-up ${isPlatformVisible ? "visible" : ""}`}>
-          <h2 className="section-headline platform-headline">Biometrica Health at a Glance</h2>
-          <img
-            src="/platform.png"
-            alt="Platform"
-            className={`platform-image platform-fade-up ${isPlatformVisible ? "visible" : ""}`}
-          />
         </div>
       </section>
 

@@ -1,6 +1,9 @@
 @import "../styles/variables.scss";
 
-.landing-page-2 {
+$color-primary: #3187a6;
+$color-primary-dark: #103c65;
+
+.landing-page-3 {
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -10,7 +13,7 @@
   animation: fadeInFromBlack 500ms ease-in-out;
 }
 
-.landing-page-2::before {
+.landing-page-3::before {
   content: "";
   position: fixed;
   top: 0;
@@ -633,7 +636,7 @@
 .header {
   margin: 0;
   padding: 0;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 100;
   width: 100%;
