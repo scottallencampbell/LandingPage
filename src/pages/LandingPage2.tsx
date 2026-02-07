@@ -8,7 +8,6 @@ const LandingPage = () => {
   const location = useLocation();
   const [problemRef, isProblemVisible] = useIntersectionObserver();
   const [howItWorksRef, isHowItWorksVisible] = useIntersectionObserver();
-  const [platformRef, isPlatformVisible] = useIntersectionObserver();
   const [capabilitiesRef, isCapabilitiesVisible] = useIntersectionObserver();
   const [complianceRef, isComplianceVisible] = useIntersectionObserver();
   const [finalCTARef, isFinalCTAVisible] = useIntersectionObserver();
